@@ -1,0 +1,46 @@
+# SAP bot poc
+
+bot sample using Microsoft Bot Framework v4, based on the sample code provided by Microsoft
+
+## Prerequisites
+
+- [Node.js](https://nodejs.org) version 10.14 or higher
+
+    ```bash
+    # determine node version
+    node --version
+    ```
+
+## To try this poc
+
+- Put the code into a folder, say some-folder
+
+- In a terminal, navigate to "some-folder"
+
+    ```bash
+    cd some-folder
+    ```
+
+- Install modules
+
+    ```bash
+    npm install
+    ```
+
+- Start the bot
+
+    ```bash
+    npm start
+    ```
+
+## Testing the bot using Bot Framework Emulator
+
+[Bot Framework Emulator](https://github.com/microsoft/botframework-emulator) is a desktop application that allows bot developers to test and debug their bots on localhost or running remotely through a tunnel.
+
+- Install the latest Bot Framework Emulator from [here](https://github.com/Microsoft/BotFramework-Emulator/releases)
+
+### Connect to the bot using Bot Framework Emulator
+
+- Launch Bot Framework Emulator
+- File -> Open Bot
+- Enter a Bot URL of `http://localhost:3978/api/messages`
